@@ -277,17 +277,16 @@ padding: 179px 24px 148px;
 }
 .footer__social-list {
   justify-content: end;
+  color:#000;
+  display: flex;
+  grid-column: -1 / -2;
+  gap: 48px;
+  list-style: none;
 }
 .footer__menu-link {
   font-weight: 400;
   font-size: 18px;
   text-underline-offset: 4px;
-}
-.footer__social-list {
-  display: flex;
-  grid-column: -1 / -2;
-  gap: 48px;
-  list-style: none;
 }
 .footer__social-list-item {
   height: 48px;
